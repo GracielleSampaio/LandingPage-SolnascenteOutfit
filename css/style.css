@@ -48,32 +48,66 @@ header{
 	margin-top: 0;
 	width: 100%;
 	height: 100%;
+	position: relative;
 
 }
 .capa{
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;	
+	position: relative;
 
 }
 
 .capa_imagem{
 	margin: 0 auto;
-	
+	filter: opacity(30%);
 }
+
+.capa_texto{
+	position: absolute;
+	top:10%;
+	left: 25%;
+	text-align: center;
+	color: #000000;
+}
+
 .capa_imagem img{
 	height: 928px;
 	width: 100%;
 
 }
-.capa_alerta{}
-.capa_chamada{}
-.capa_promocao{}
 
-.conteudoPrincipal{}
+.capa_alerta{
+	font-size: 80px;
+	font-weight: 900;
+}
 
-.conteudoPrincipal_colecao{}
-.conteudoPrincipal_colecao1 ul{}
+.capa_chamada{
+	font-size: 47px;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+.capa_promocao{
+	text-transform: uppercase;
+	font-weight: 700;	
+}
+
+.conteudoPrincipal{
+	
+}
+
+.conteudoPrincipal_colecaoPrimeiro{
+	position: absolute;
+	top: 75%;
+	background-color: #ffffff;
+	justify-content:space-around;
+	
+}
+.conteudoPrincipal_colecao1 ul{
+	
+}
 .conteudoPrincipal_colecao1 ul li{}
 .conteudoPrincipal_colecao1 ul li figure{}
 .conteudoPrincipal_colecao1 ul li figure img{}
@@ -84,8 +118,17 @@ header{
 .conteudoPrincipal_colecao1titulo{}
 .conteudoPrincipal_colecao1texto{}
 
-
-.conteudoPrincipal_colecao2 ul{}
+.conteudoPrincipal_colecaoSegundo{
+	position: absolute;
+	top: 75%;
+	left: 70%;
+	background-color: #ffffff;
+	justify-content:space-around;
+	
+}
+.conteudoPrincipal_colecao2 ul{
+	
+}
 .conteudoPrincipal_colecao2 ul li{}
 .conteudoPrincipal_colecao2 ul li figure{}
 .conteudoPrincipal_colecao2 ul li figure img{}
@@ -96,7 +139,18 @@ header{
 .conteudoPrincipal_colecao2titulo{}
 .conteudoPrincipal_colecao2texto{}
 
-.conteudoPrincipal_formulario{}
+.conteudoPrincipal_formulario{
+	position: absolute;
+	left: 37%;
+	top: 63%;
+	background-color: #000000;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-left: 25px;
+	border: 10px solid #000000;
+	width: 30%;
+	z-index: 1;
+} 
 .conteudoPrincipal_formulariocontainer{}
 .conteudoPrincipal_formulariotitulo{}
 .conteudoPrincipal_formularioinfos{}
