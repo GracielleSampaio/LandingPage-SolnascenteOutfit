@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
-
+font-family: 'Lato', sans-serif;
 
 * {
 	margin: 0;
 	padding: 0;
-	text-decoration: none;	
+	box-sizing: border-box;
+	text-decoration: none;
+	
 }
+
 ul{
 	list-style-type: none;
 }
@@ -13,14 +16,13 @@ ul{
 body{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
-    padding: 0;
-    margin: 0 auto;
+	padding: 0;
+
 }
 
 header{
 	display: flex;
-} 
-
+}
 .cabeçalho{
 	background-color: #1c211f;
 	height: 60px;
@@ -38,6 +40,8 @@ header{
 	font-weight: 700;
 	font-size: 20px;
 
+
+
 }
 
 .conteudo{
@@ -50,140 +54,64 @@ header{
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;	
-	
 
 }
 
 .capa_imagem{
 	margin: 0 auto;
-	filter: opacity(30%);
-	position: relative;
+	
 }
-
-.capa_texto{
-	position: absolute;
-	top:20%;
-	left: 20%;
-	text-align: center;
-	color: #000000;
-}
-
 .capa_imagem img{
 	height: 928px;
 	width: 100%;
 
 }
+.capa_alerta{}
+.capa_chamada{}
+.capa_promocao{}
 
-.capa_alerta{
-	font-size: 80px;
-	font-weight: 900;
-}
+.conteudoPrincipal{}
 
-.capa_chamada{
-	font-size: 47px;
-	font-weight: 700;
-	text-shadow: 1px 1px 1px #ffffff;
-	padding-top: 10px;
-}
+.conteudoPrincipal_colecao{}
+.conteudoPrincipal_colecao1 ul{}
+.conteudoPrincipal_colecao1 ul li{}
+.conteudoPrincipal_colecao1 ul li figure{}
+.conteudoPrincipal_colecao1 ul li figure img{}
+.conteudoPrincipal_colecao1 ul li figure img h3{}
+.conteudoPrincipal_colecao1 ul li figure img h3 p{}
 
-.capa_promocao{
-	text-transform: uppercase;
-	font-weight: 700;	
-	padding-top: 20px;
-}
-
-.conteudoPrincipal{
-	margin: 0;
-	width: 100%;
-	display: flex;
-	top: 85%;
-	justify-content:space-around;
-	padding: 30px;
-	position: absolute;
-	top:85%;
-	box-sizing: content-box;
-	
-}
-.conteudoPrincipal_formulario{
-	background-color: #000000;
-	color: #ffffff;
-	padding: 25px;
-	width: 65%;
-	
-} 
-/*.conteudoPrincipal_colecaoPrimeiro{
-	background-color: #ffffff;
-
-	width: 35%;
-	padding: 30px;
-	margin-left: 0px;
-	
-}
-.conteudoPrincipal_colecao1 {
-	padding-right: 30px;
-	
-	
-}
-.conteudoPrincipal_colecao1titulo{
-	display: flex;
-	text-transform: uppercase;
-	align-items: center;
-}
+.conteudoPrincipal_colecao1icone{}
+.conteudoPrincipal_colecao1titulo{}
+.conteudoPrincipal_colecao1texto{}
 
 
-.conteudoPrincipal_colecao1texto{
-	padding-left: 30px;
-}
+.conteudoPrincipal_colecao2 ul{}
+.conteudoPrincipal_colecao2 ul li{}
+.conteudoPrincipal_colecao2 ul li figure{}
+.conteudoPrincipal_colecao2 ul li figure img{}
+.conteudoPrincipal_colecao2 ul li figure img h3{}
+.conteudoPrincipal_colecao2 ul li figure img h3 p{}
 
-.conteudoPrincipal_colecaoSegundo{
-	position: absolute;
-	top: 75%;
-	left: 65%;
-	background-color: #ffffff;
-	justify-content:space-around;
-	padding: 30px;
-}
-.conteudoPrincipal_colecao2 ul{
-	padding-top: 10px;
-}
+.conteudoPrincipal_colecao2icone{}
+.conteudoPrincipal_colecao2titulo{}
+.conteudoPrincipal_colecao2texto{}
 
-.conteudoPrincipal_colecao2titulo{
-	display: flex;
-	text-transform: uppercase;
-	align-items: center;
-}
-.conteudoPrincipal_colecao2texto{
-	padding-left: 30px;
-}
+.conteudoPrincipal_formulario{}
+.conteudoPrincipal_formulariocontainer{}
+.conteudoPrincipal_formulariotitulo{}
+.conteudoPrincipal_formularioinfos{}
+.conteudoPrincipal_formularioinfos input{}
 
+.conteudoPrincipal_formulariocheckbox{}
+.conteudoPrincipal_formularioinfos p input{}
+.conteudoPrincipal_formularioinfos p input{}
+.conteudoPrincipal_formularioinfos p input label{}
+.conteudoPrincipal_formularioinfos p input label button{}
 
-.conteudoPrincipal_formulariocontainer input{
-	
-}
-.conteudoPrincipal_formulariotitulo{
-	font-size: 30px;
-}
-.conteudoPrincipal_formularioinfos{
-	height: 40px;
-}
-.conteudoPrincipal_formularioinfos input {
-	width: 130px;
-}
-
-*/
-footer{
-	
-	position: absolute;
-	top: 150%;
-	padding: 30px;
-	background: #000000;
-	margin: 0;
-	justify-content: center;
-	color: #ffffff;
-	width: 100%;
-}
-footer, img{
-	justify-items: center;
-	display:flex;
-	
-}
+.rodape{}
+.rodape_agradecimento{}
+.rodape_redessociais li {}
+.rodape_redessociais li figure{}
+.rodape_redessociais li figure img{}
+.rodape_redessociaisicone {}
+.rodape_redessociaisicone img{}

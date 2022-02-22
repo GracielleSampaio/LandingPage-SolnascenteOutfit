@@ -1,0 +1,46 @@
+READ ME
+
+	Objetivo:
+
+	Criar uma landing Page de Pesquisa:
+
+		Promoção de verão, pesquisada focada em futuros clientes, deixar que os clientes escolham qual a proxima coleção e peças que querem ver na loja. E disponibilizar desconto para os participantes da pesquisa.
+
+
+	Metodos necessarios:
+
+		Um formulario para coletar de dados com:
+			Nome
+			EmaiL
+			Whatsapp
+				Checklist com as ideias de coleções 
+			metodo de verificação 
+			botão
+
+
+	Informações apresentadas na pagina:
+
+		
+		Header:
+			nome da loja
+		Capa de fundo:
+			Promoção destacada, chamada de copy, explicar para que serve a pesquisa
+		Formulario:
+			Com titulo,inputs, checklist e spam no final
+		Colunas:
+			Com as coleçoes;
+				4 modelos de coleção:
+				com icone, nome e descrição
+		Footer:
+			Agredecimento e redes sociais
+
+
+	Desing:
+
+	cores: #ffffff, #1c211f, #ffe047
+
+	fonte: @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+	font-family: 'Lato', sans-serif;
+
+notas:
+30/01/2022 - 1:20hrs fazendo o html
